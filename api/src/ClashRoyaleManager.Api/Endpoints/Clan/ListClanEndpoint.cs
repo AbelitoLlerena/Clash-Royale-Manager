@@ -1,7 +1,7 @@
 using ClashRoyaleManager.Application.Query.Clans;
 using FastEndpoints;
 
-namespace ClashRoyaleManager.Presentation.Endpoints;
+namespace ClashRoyaleManager.Presentation.Endpoints.Clan;
 
 public class GetAllEndpoint : EndpointWithoutRequest<ListClanQueryResponse>
 {

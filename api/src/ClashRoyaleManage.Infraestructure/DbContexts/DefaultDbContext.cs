@@ -9,4 +9,6 @@ public class DefaultDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<Clan> Clans { get; set; }
+
+    public DbSet<Player> Players { get; set; }
 }

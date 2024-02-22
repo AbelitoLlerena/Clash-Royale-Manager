@@ -19,7 +19,8 @@ builder.Services.AddDbContext<DefaultDbContext>(
 builder.Services.AddScoped<IEncryptService, EncryptService>()
                 .AddScoped<DefaultDbContext>()
                 .AddScoped<IUserRepository, UserRepository>()
-                .AddScoped<IClanRepository, ClanRepository>();
+                .AddScoped<IClanRepository, ClanRepository>()
+                .AddScoped<IPlayerRepository, PlayerRepository>();
 }
 
 var app = builder.Build();
